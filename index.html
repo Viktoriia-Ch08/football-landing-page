@@ -3,50 +3,84 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="">Футбольчик</a>
-        <ul>
-          <li><a href="">Главная</a></li>
-          <li><a href="">Внутренняя про игру</a></li>
-          <li><a href="">Контакты</a></li>
-        </ul>
-      </nav>
-      <button type="button">Кнопка</button>
+    <header class="header">
+      <div class="container header-container">
+        <a href="index.html" class="logo nav-item">Футбольчик</a>
+        <nav class="navigation">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href=""><span>Главная</span></a>
+            </li>
+            <li class="nav-item"><a href="">Внутренняя про игру</a></li>
+            <li class="nav-item"><a href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <button type="button" class="btn">Кнопка</button>
+      </div>
     </header>
     <main>
-      <section>
-        <h1>Любишь футбол?</h1>
-        <p>Получи мяч на первую игру</p>
-        <button type="button">Получить мяч</button>
+      <section class="section-container container first-section">
+        <div class="first-section-wrap">
+          <h1 class="main-title">Любишь футбол?</h1>
+          <p class="first-section-txt">Получи мяч на первую игру</p>
+        </div>
+        <button type="button" class="btn first-sec-btn">Получить мяч</button>
       </section>
-      <section>
-        <h2>Начни игру с выбора мяча</h2>
-        <p>
-          Любой спорт с чего-то начинается. Мы предлагаем ознакомиться с
-          ассортиментом наших фирменных игровых мячей и выбрать свой. Ворвись в
-          игру с максимальным преимуществом и обойди всех соперников с бонусами
-          и отличным настроением.
-        </p>
+      <section class="section-container container second-section">
+        <div class="second-sec-txt-wrap">
+          <h2 class="second-section-title">Начни игру с выбора мяча</h2>
+          <p>
+            Любой спорт с чего-то начинается. Мы предлагаем ознакомиться с
+            ассортиментом наших фирменных игровых мячей и выбрать свой. Ворвись
+            в игру с максимальным преимуществом и обойди всех соперников с
+            бонусами и отличным настроением.
+          </p>
+        </div>
         <div>
-          <ul>
-            <li>
-              <img src="" alt="" />
-              <h3>ГИГАМЯЧ</h3>
-              <p>отличный выбор для новичка</p>
+          <ul class="second-sec-list">
+            <li class="second-sec-item">
+              <img
+                src="./assets/images/giga_ball.png"
+                alt="гигамяч"
+                class="second-sec-img"
+              />
+              <div>
+                <h3 class="second-sec-list-title">гигамяч</h3>
+                <p class="second-sec-list-txt">Отличный выбор для новичка</p>
+              </div>
             </li>
-            <li>
-              <img src="" alt="" />
-              <h3>ТУРБОМЯЧ</h3>
-              <p>для тех кто любит скорость</p>
+            <li class="second-sec-item">
+              <img
+                src="./assets/images/turbo_ball.png"
+                alt="турбомяч"
+                class="second-sec-img"
+              />
+              <div>
+                <h3 class="second-sec-list-title">турбомяч</h3>
+                <p class="second-sec-list-txt">Для тех кто любит скорость</p>
+              </div>
             </li>
-            <li>
-              <img src="" alt="" />
-              <h3>МУДРОМЯЧ</h3>
-              <p>хитрый игрок оценит</p>
+            <li class="second-sec-item">
+              <img
+                src="./assets/images/mudro_ball.png"
+                alt="мудромяч"
+                class="second-sec-img"
+              />
+              <div>
+                <h3 class="second-sec-list-title">мудромяч</h3>
+                <p class="second-sec-list-txt">Хитрый игрок оценит</p>
+              </div>
             </li>
           </ul>
         </div>

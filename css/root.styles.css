@@ -1,0 +1,25 @@
+:root {
+  --primary-bg-clr: #387a49;
+  --secondary-bg-clr: #022f0e;
+  --btn-clr: rgb(149, 255, 214);
+  --hover-clr: rgb(149, 255, 214);
+  --first-sec-btn-bg-hover: #022f0e;
+
+  --low-transition: 300ms linear;
+
+  --main-text-clr: #ffffff;
+  --secondary-txt-clr: #022f0e;
+  --title-clr: #022f0e;
+
+  --header-text-clr: #fff;
+
+  /* FONT Styles */
+  --main-font-family: 'Inter', sans-serif;
+  --font-size: 16px;
+  --line-height: 1.25;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --high-index: 10;
+}
