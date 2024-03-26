@@ -1,7 +1,9 @@
 :root {
   --primary-bg-clr: #387a49;
   --secondary-bg-clr: #022f0e;
+
   --btn-clr: rgb(149, 255, 214);
+
   --hover-clr: rgb(149, 255, 214);
   --first-sec-btn-bg-hover: #022f0e;
 
@@ -10,6 +12,7 @@
   --main-text-clr: #ffffff;
   --secondary-txt-clr: #022f0e;
   --title-clr: #022f0e;
+  --secondary-title-clr: rgb(149, 255, 214);
 
   --header-text-clr: #fff;
 
